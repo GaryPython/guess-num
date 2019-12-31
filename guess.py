@@ -8,6 +8,7 @@ while True:
 	num = int(num) #轉換成數字
 	if r == num:
 		print('終於猜對了')
+		print('這是你猜的第', count, '	次')
 		break
 	elif r < num:
 		print('比答案大')
